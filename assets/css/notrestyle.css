@@ -1,0 +1,97 @@
+.transp{
+	position: absolute;
+	z-index: 1999;
+}
+
+.text-col{
+	color: white!important;
+}
+
+a{
+    color: #000000;
+}
+
+.form-login{
+    margin-top: 15px;
+    padding: 7px;
+    background: rgb(255 255 255 / 80%);
+    box-shadow: 3px 7px 10px 2px #dedede;
+    margin-bottom: 15px;
+}
+.form-login-header{
+	text-align: center;
+    /*color: #7fad39;*/
+    padding: 5px;
+}
+.form-login-header h1{
+	font-size: 3.7rem;
+    color: #7fad39;
+    padding: 0;
+    margin: 0;
+}
+
+.form-login-header h3{
+	font-size: 1.4rem !important;
+}
+
+.error{
+    text-align: center;
+    background: #f44336;
+    color: #ffffff;
+    border-radius: 7px;
+}
+.error p{
+    color: #ffffff;
+    font-size: 13px;
+}
+.form-login-body{
+	padding: 10px;
+}
+.input-label{
+	font-size: 15px;
+	color: #7fad39;
+}
+
+input::placeholder{
+	font-size: 13px;
+}
+
+.green_btn{
+    background: #7fad39;
+    border-color: #7fad39;
+    color: #ffffff;
+    outline: none;
+}
+.green_btn:hover{
+    background: #527914;
+    border-color: #527914;
+    color: #ffffff;
+    outline: none;
+}
+
+.a-newAccount{
+	font-size: 13px;
+}
+.a-newAccount:hover{
+	font-size: 14px;
+	color: #7fad39;
+}
+.set-background{
+  background-image: url(../img/images/s2.jpeg);
+  background-size: cover;
+}
+.footer-container{
+  background: #F3F6FA;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.resultats{
+  margin-top: 10px;
+    background: #7fad39;
+    padding: 5px
+}
+
+.resultats h4,h5{
+ color: #ffffff;
+}
